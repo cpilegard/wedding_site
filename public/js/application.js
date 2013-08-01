@@ -1,7 +1,41 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+  $('.rsvp_link').on('click', function(e) {
+  	console.log('clicked');
+  	$('html,body').animate({
+		   scrollTop: $("#rsvp").offset().top
+		}, 1000);
+		return false;
+  });
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  $('.location_link').on('click', function(e) {
+  	console.log('clicked');
+  	$('html,body').animate({
+		   scrollTop: $("#map").offset().top
+		}, 1000);
+		return false;
+  });
+
+  $('.accomodation_link').on('click', function(e) {
+  	console.log('clicked');
+  	$('html,body').animate({
+		   scrollTop: $("#accomodation").offset().top
+		}, 1000);
+		return false;
+  });
+
+  $('.info_link').on('click', function(e) {
+  	console.log('clicked');
+  	$('html,body').animate({
+		   scrollTop: $("#info").offset().top
+		}, 1000);
+		return false;
+  });
+
+  $('.navbar-brand').on('click', function(e) {
+  	console.log('clicked');
+  	$('html,body').animate({
+		   scrollTop: $("body").offset().top
+		}, 1000);
+		return false;
+  });
 });

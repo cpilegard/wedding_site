@@ -1,9 +1,131 @@
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  /*margin: 20px auto;*/
+  /*width: 600px;*/
+  width: 100% auto;
+  padding: 0px 20px 0px 20px;
 }
 th {
   text-align: left;
+}
+
+body { 
+	/*padding-top: 70px;*/
+/*	background-image:url('../bg.jpg');
+	height: 800px;*/
+}
+
+.navbar-inverse {
+	opacity: 0.6;
+}
+
+#background .jumbotron {
+	margin-left: 20px;
+	background-color:rgba(100,100,100,0.2);
+	padding: 20px;
+	text-align: center;
+}
+
+.jumbotron {
+	background-color:rgba(100,100,100,0.2);
+	padding: 20px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: #349156;
+	font-family: 'Parisienne', cursive;
+}
+
+#background {
+	padding-top: 90px;
+	background-image: url('../bg.jpg');
+	height: 800px;
+}
+
+#rsvp {
+	text-align: center;
+	height: 500px;
+	padding-top: 50px;
+	background-color: #FCFFEA;
+}
+
+#rsvp h1 {
+	font-size:400%;
+	font-family: 'Parisienne', cursive;
+}
+
+.input-large {
+	width: 100%;
+}
+
+button {
+	margin: 20px;
+}
+
+#map {
+	height: 500px;
+	background-color: grey;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#map h1 {
+	font-size:400%;
+	font-family: 'Parisienne', cursive;
+	color: white;
+}
+
+#accomodation {
+	height: 550px;
+	background-image: url('../bass-panorama2.jpg');
+	text-align: center;
+	padding-top: 50px;
+}
+
+#accomodation h1 {
+	font-size:400%;
+	color:white;
+	font-family: 'Parisienne', cursive;
+}
+
+.accomodations {
+	color:white;
+}
+
+.acc-text {
+	font-size: 80%;
+}
+
+#info {
+	height: 1000px;
+	background-color: #ACE4FF;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+}
+
+#info h1 {
+	font-size:400%;
+	font-family: 'Parisienne', cursive;
+	color: black;
+}
+
+#info h2 {
+	font-family: 'Parisienne', cursive;
+}
+
+.img-rounded {
+	width: 80%;
+}
+
+#info .jumbotron {
+	background-color:rgba(100,100,100,0.4);
+	padding: 20px;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-family: 'Parisienne', cursive;
+	font-size: 150%;
+	padding-left: 30px;
 }
