@@ -1,4 +1,7 @@
 get '/' do
-  # Look in app/views/index.erb
   erb :index
+end
+
+post '/rsvp' do
+	user = User.create(params)
 end
