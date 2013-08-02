@@ -1,17 +1,6 @@
 .container {
-  /*margin: 20px auto;*/
-  /*width: 600px;*/
   width: 100% auto;
   padding: 0px 20px 0px 20px;
-}
-th {
-  text-align: left;
-}
-
-body { 
-	/*padding-top: 70px;*/
-/*	background-image:url('../bg.jpg');
-	height: 800px;*/
 }
 
 .navbar-inverse {
@@ -20,9 +9,6 @@ body {
 
 #background .jumbotron {
 	margin-left: 20px;
-	background-color:rgba(100,100,100,0.2);
-	padding: 20px;
-	text-align: center;
 }
 
 .jumbotron {
@@ -97,7 +83,7 @@ button {
 }
 
 #info {
-	height: 1000px;
+	height: 1100px;
 	background-color: #ACE4FF;
 	text-align: center;
 	padding-top: 50px;

@@ -1,0 +1,7 @@
+<div class="container">
+	<div class="col-lg-8 col-offset-2">
+		<% @users.each do |user| %>
+			<p><%= user.name %>: <%= user.status %></p>
+		<% end %>
+	</div>
+</div>
