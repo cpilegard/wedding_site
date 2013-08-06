@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-lg-8 col-offset-2">
 		<% @users.each do |user| %>
-			<p><%= user.name %>: <%= user.status %></p>
+			<p><%= user.name %>: <%= user.status %>, Songs: <%= user.songs %></p>
 		<% end %>
 	</div>
 </div>

@@ -38,10 +38,11 @@ $(document).ready(function() {
   	e.preventDefault();
   	var name = $('#name-input').val();
   	var status = $('#status-input').val();
+    var songs = $('#songs-input').val();
   	$.ajax({
   		url: '/rsvp',
   		type: 'post',
-  		data: { name: name, status: status }
+  		data: { name: name, status: status, songs: songs }
   	}).done(function() {
   		$('form').slideUp();
   		$('form').closest('div').append('<h2>Thanks '+name+'!</h2>');

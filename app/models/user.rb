@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
     :from => "Cole and Carly's wedding site <me@coleandcarly.mailgun.org>",
     :to => "c.pilegard@gmail.com, carlycogburn@gmail.com",
     :subject => "Someone RSVP'd!",
-    :text => "NAME: #{self.name}, STATUS: #{self.status}"
+    :text => "NAME: #{self.name}, STATUS: #{self.status}, SONGS: #{self.songs}"
   end
 
 end
