@@ -47,7 +47,7 @@ $(document).ready(function() {
   		$('form').closest('div').append('<h2>Thanks '+name+'!</h2>');
   	}).fail(function() {
   		$('form').slideUp();
-  		$('form').closest('div').append('<h2 style="color:red;">Oops, something went wrong. Please try again later!</h2>');
+  		$('form').closest('div').append('<h2 style="color:red;	">Oops, something went wrong. Please try again later!</h2>');
   	});
   });
 });
