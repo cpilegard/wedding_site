@@ -62,11 +62,22 @@ button {
 	color: white;
 }
 
+#map h3 {
+	font-size:400%;
+	font-family: 'Parisienne', cursive;
+	color: white;
+}
+
+#map a {
+	text-decoration: underline;
+	color: #FCFFEA;
+}
+
 #accomodation {
-	height: 550px;
-	background-image: url('../bass-panorama2.jpg');
+	height: 600px;
+	background-image: url('../bass-panorama3.jpg');
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 #accomodation h1 {
@@ -115,4 +126,9 @@ button {
 	font-family: 'Parisienne', cursive;
 	font-size: 150%;
 	padding-left: 30px;
+}
+
+#accom_contact {
+	font-size: 150%;
+	color: #90EE90;
 }
